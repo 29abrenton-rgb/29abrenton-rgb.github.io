@@ -27,6 +27,16 @@
         header {
             background-color: #226F54;
         }
+
+        #firstArticle {
+            background-color: #031aec;
+            padding: 10px;
+        }
+
+        .empWord {
+            color: red;
+            font-weight: bold;
+        }
     </style>
 </head>
 
@@ -38,14 +48,19 @@
         <a href="game/index.html">Game</a>
     </nav>
 
-    <article>
-        <header>
-            <h2>Welcome to my website!</h2>
-                    <h3><p> <b>On phones I have found out that the game is a small window</b></p></h3>
-        </header>
-        <p>I am a person. I live in a house!</p>
-        <p>Here is some additional information</p>
-    </article>
+    <div id="firstArticle">
+        <article>
+            <header>
+                <h2>Welcome to my website!</h2>
+                <h3>
+                    <p> <b>On phones I have found out that the game is a small window</b></p>
+                </h3>
+            </header>
+            <p>I am a person. I live in a house!</p>
+            <p>Here is some additional information</p>
+            <p>My <span class="empWord">legs</span> and <span class="empWord">arms</span> are important for mobility</p>
+        </article>
+    </div>
 </body>
 
 </html>
