@@ -17,5 +17,5 @@ null,
 {"id":15,"expanded":true,"name":"Boulder Pass D LV1","order":10,"parentId":14,"scrollX":1786.909090909091,"scrollY":1401.818181818182,"quick":false},
 {"id":16,"expanded":false,"name":"Boulder Pass room","order":11,"parentId":15,"scrollX":1769.4545454545455,"scrollY":998.1818181818182,"quick":false},
 {"id":17,"expanded":false,"name":"Boulder Pass Boss","order":12,"parentId":15,"scrollX":1769.4545454545455,"scrollY":998.1818181818182,"quick":false},
-{"id":18,"expanded":false,"name":"FPass","order":2,"parentId":7,"scrollX":1131.4285714285713,"scrollY":840,"quick":false}
+{"id":18,"expanded":false,"name":"FPass","order":2,"parentId":7,"scrollX":1268.5714285714284,"scrollY":840,"quick":false}
 ]
