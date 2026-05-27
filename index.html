@@ -8,31 +8,47 @@
     <title>My Site</title>
     <style>
         :root {
-  color-scheme: light dark;
-}
+            --border-color: #d4d4d4;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --border-color: #282828;
+            }
+        }
+
+        .my-box {
+            border: 5px solid var(--border-color);
+        }
+
+        :root {
+            color-scheme: light dark;
+        }
+
         body {
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
 
         nav {
-            border: 5px solid black;
+            border: 5px solid
         }
 
         button {
             margin: 50px;
-            border: 5px solid black;
+            border: 5px solid
         }
+
         a {
-           padding: 50px; 
+            padding: 50px;
         }
 
         article {
             margin: 20px;
-            border: 5px solid black;
+            border: 5px solid
         }
 
         header {
-            border: 5px solid black;
+            border: 5px solid
         }
 
         #firstArticle {
@@ -43,10 +59,12 @@
             color: red;
             font-weight: bold;
         }
+
         h3 p {
             font-weight: bold;
             font-size: larger;
         }
+
         header h2 {
             font-size: xx-large;
         }
@@ -57,20 +75,21 @@
     <h1>My Site</h1>
     <nav>
         <button type="button"><a href="about.html">About</a></button> |
-         <button type="button"><a href="javascript.html">Cookie clicker</a></button> |
-         <button type="button"><a href="https://github.com/29abrenton-rgb/29abrenton-rgb.github.io" target="_blank">My Github Repository</a></button> |
+        <button type="button"><a href="javascript.html">Cookie clicker</a></button> |
+        <button type="button"><a href="https://github.com/29abrenton-rgb/29abrenton-rgb.github.io" target="_blank">My
+                Github Repository</a></button> |
         <button type="button"><a href="game/index.html" target="_blank">Game</a></button>
     </nav>
 
     <div id="firstArticle">
-            <header>
-                <h2>Welcome to my website!</h2>
-                <h3>
-                    <p>Check the About Page to see screenshots</p>
-                </h3>
-                <p> <b>On phones I have found out that the game is a small window</b></p>
-            </header>
-            <article>
+        <header>
+            <h2>Welcome to my website!</h2>
+            <h3>
+                <p>Check the About Page to see screenshots</p>
+            </h3>
+            <p> <b>On phones I have found out that the game is a small window</b></p>
+        </header>
+        <article>
             <p>I am a person. I live in a house!</p>
             <p>Here is some additional information</p>
             <p>My <span class="empWord">legs</span> and <span class="empWord">arms</span> are important for mobility</p>
